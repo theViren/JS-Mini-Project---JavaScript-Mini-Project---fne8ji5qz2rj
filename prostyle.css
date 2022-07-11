@@ -1,0 +1,25 @@
+
+body {
+    background-color: #49E2A1;
+      margin:0;
+  }
+.info{
+    width: 90%;
+padding-top:20px;
+padding-bottom:20px;
+text-align: center;
+border:2px solid white;
+border-radius: 8px;
+font-family: monospace;
+font-size: 1.4em;
+    font-weight:bolder;
+color: white;
+text-decoration: none;
+background-color: #49E2A1;
+}
+
+.info:hover{
+background-color: white;
+color: #49E2A1;
+
+}
