@@ -1,1 +1,38 @@
 
+<!DOCTYPE html>
+<html>
+    <head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta property="og:image" content="http://theviren.coolpage.biz/img/pro.jpg"/>
+<meta property="og:description" content="See My Convertor Project"/>
+<title>Convertor Project</title>
+<link rel="stylesheet" href="prostyle.css">
+<script language="javascript" type="text/javascript" src="app.js"></script>
+</head>
+<body>
+<h1 style="font-size: 1.8em; text-align: center; color:white; background-color: tomato;">Convertor Project</h1>
+<center><div style="text-align:center; border:2px solid white; border-radius: 25px; width:90%;">
+<p><input id="noone" type="text" placeholder="Enter Number" autocomplete="on" style="padding: 20px; width:50%;"></p>
+<label for="noone2" style="font-size: 40px; color:white;">From:-</label><br>
+<select id="mySelect2" style="padding: 20px; width:50%;">
+  <option value="decimal">Decimal</option>
+  <option value="binary">Binary</option>
+  <option value="octal">Octal</option>
+  <option value="hexadecimal">Hexa Decimal</option>
+</select><br><br>
+<label for="mySelect" style="font-size: 40px; color:white;">To:-</label><br>
+<select id="mySelect" style="padding: 20px; width:50%;">
+  <option value="decimal">Decimal</option>
+  <option value="binary">Binary</option>
+  <option value="octal">Octal</option>
+  <option value="hexadecimal">Hexa Decimal</option>
+</select><br><br>
+
+<button class="info" style="padding: 10px;"type="button" onclick="myConverter()">Convert</button>
+<p style="color:white; font-size: 20px;"><bdo dir="rtl" id="result"></bdo></p>
+<p id="result2" style="color:white; font-size: 20px;"></p>
+<div>
+</center>
+<br><br><br>
+</body>
+</html>
